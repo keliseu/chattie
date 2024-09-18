@@ -3,6 +3,7 @@
 <head>
     <title>kelisi</title>
     <link rel="stylesheet" href="assets/css/home.css">
+    <meta name="viewport" content="width=1024, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +11,119 @@
     <link href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
     <style>
+
+
+@media screen and (max-width: 1024px) {
+    body {
+        min-width: 1024px;
+    }
+
+    .content-container {
+        padding: 100px 40px;
+    }
+
+    .fat-kelisi {
+        font-size: 180px;
+    }
+
+    .kel {
+        font-size: 30px;
+    }
+
+    .cm {
+        font-size: 30px;
+    }
+
+    .fw {
+        font-size: 300px;
+        margin: 50px;
+    }
+
+    .whoamifat {
+        font-size: 80px;
+    }
+
+    .aboutmeexplain {
+        font-size: 24px;
+    }
+
+    .portfolio-title {
+        font-size: 40px;
+    }
+
+    .portfolio-subtitle {
+        font-size: 20px;
+    }
+
+    .portfolio-button .button-text {
+        font-size: 50px !important;
+    }
+
+    .contact-title {
+        font-size: 40px;
+    }
+
+    .contact-info {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        min-width: 768px;
+    }
+
+    .content-container {
+        padding: 80px 30px;
+    }
+
+    .fat-kelisi {
+        font-size: 140px;
+    }
+
+    .kel {
+        font-size: 24px;
+    }
+
+    .cm {
+        font-size: 24px;
+    }
+
+    .fw {
+        font-size: 240px;
+        margin: 40px;
+    }
+
+    .whoamifat {
+        font-size: 60px;
+    }
+
+    .aboutmeexplain {
+        font-size: 20px;
+    }
+
+    .portfolio-title {
+        font-size: 36px;
+    }
+
+    .portfolio-subtitle {
+        font-size: 18px;
+    }
+
+    .portfolio-button .button-text {
+        font-size: 40px !important;
+    }
+
+    .contact-title {
+        font-size: 36px;
+    }
+
+    .contact-info {
+        font-size: 18px;
+    }
+}
+
+
         @font-face {
             font-family: TINY80;
             src: url(/assets/fonts/TINY5x3-80.woff);
@@ -30,64 +144,108 @@
             background-color: #070707;
             z-index: 1000;
 
-        }
-        .content-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            padding: 100px 70px;
-        }
-        .fw-container {
-            flex: 0 0 auto;
-            text-align: left;
-        }
-        .nav-link {
+        } 
+           .nav-link {
             font-family: "Inria Serif", serif;
             font-weight: 300;
             font-size: 18px;
             color: whitesmoke;
+            
             text-decoration: none;
         }
-        .title-container {
-            flex: 1;
-            text-align: right;
-        }
-        .fat-kelisi {
-            font-family: "Inria Serif", serif;
-            font-weight: 300;
-            font-style: normal;
-            font-size: 240px;
-            color: whitesmoke;
-            line-height: 0.8;
-            margin-bottom: 0;
-        }
-        .kel {
-            font-family: "Inria Serif", serif;
-            font-weight: 300;
-            font-style: light;
-            font-size: 40px;
-            color: whitesmoke;
-            line-height: 0.8;
-            margin-bottom: 0;
-        }
-        .cm {
-            font-family: "Inria Serif", serif;
-            font-weight: 300;
-            font-style: normal;
-            font-size: 40px;
-            color: whitesmoke;
-            margin-top: 0;
-        }
-        .fw {
-            font-family: "Inria Serif", serif;
-            font-weight: 300;
-            font-style: normal;
-            font-size: 400px;
-            color: whitesmoke;
-            margin: 100px;
-    
-            line-height: 1;
-        }
+        .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+}
+
+.fw-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fw {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20vw;
+    color: whitesmoke;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.title-container {
+    flex: 1;
+    text-align: right;
+    padding-right: 5vw;
+}
+
+.fat-kelisi {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 10vw;
+    color: whitesmoke;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+.kel {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: light;
+    font-size: 2vw;
+    color: whitesmoke;
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+.cm {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    color: whitesmoke;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .fw-container {
+        height: 30vh;
+    }
+
+    .fw {
+        font-size: 30vw;
+    }
+
+    .title-container {
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .fat-kelisi {
+        font-size: 15vw;
+    }
+
+    .kel {
+        font-size: 4vw;
+    }
+
+    .cm {
+        font-size: 4vw;
+    }
+}
+
         .section {
             height: 100vh;
             width: 100%;
@@ -243,9 +401,6 @@
         font-size: 14px;
         opacity: 0;
         transition: opacity 0.3s ease;
-    }
-
-    .portfolio-button:hover {
     }
 
     .portfolio-button:hover .portfolio-description {
